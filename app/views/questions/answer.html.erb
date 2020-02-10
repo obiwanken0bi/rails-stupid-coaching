@@ -1,0 +1,21 @@
+<!-- <h1>Questions#answer</h1>
+<p>Find me in app/views/questions/answer.html.erb</p> -->
+
+<div class="container">
+  <h1>Stupid Coaching</h1>
+
+  <div id="cards">
+    <div class="card card-question">
+      <p class="quote"><%= @question %></p>
+      <p class="author">-You</p>
+    </div>
+
+    <div class="card card-answer">
+      <p class="quote"><%= @answer %></p>
+      <p class="author">-Your coach</p>
+    </div>
+  </div>
+
+  <!-- <a href="../questions/ask">Ask a new question</a> -->
+  <p class="link"><%= link_to "Ask a new question", ask_path %></p>
+</div>

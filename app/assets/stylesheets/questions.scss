@@ -1,0 +1,71 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+// ASK & ANSWER
+body {
+  font-size: 20px;
+
+  h1 {
+    font-size: 42px;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+// ASK
+form {
+  display: flex;
+
+  .input-field {
+    border: 1px solid grey;
+    border-radius: 4px 0 0 4px;
+    padding: 8px 12px;
+    font-size: 20px;
+    width: 350px;
+    height: 32px;
+  }
+
+  .submit-btn {
+    border: 1px solid transparent;
+    border-radius: 0 4px 4px 0;
+    padding: 8px 12px;
+    background-color: #377AB7;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    height: 50px;
+  }
+}
+
+// ANSWER
+#cards {
+  .card {
+    border: 1px solid grey;
+    border-left: 8px solid #DDDDDD;
+    width: 500px;
+    padding: 4px 12px;
+    margin-bottom: 24px;
+
+    .author {
+      font-style: italic;
+    }
+  }
+
+  .card-answer {
+    background-color: #FEFFE0;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #3D83CB;
+
+  &:visited {
+    color: #3D83CB;
+  }
+}
